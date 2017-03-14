@@ -1,3 +1,3 @@
 # Getting and Cleaning Data Course Project
 
-## Code Book:
+## Human Activity Recognition Using Smartphones Dataset - Updated Code Book
