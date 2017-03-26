@@ -104,22 +104,22 @@ The following files are available for the train and test data. Their description
 Additional information on the UCI HAR data sets may be accessed at www.smartlab.ws
 
 ### File Structure and Variable Information - Post-Project
-The UCI HAR source data file structure and variable list have been modified, based on the data transformation, manipulation, and analysis completed in the current project.
+The UCI HAR source data variable list and file structures have been modified, based on the data transformation, manipulation, and analysis completed during the current project.
 
-The following modifications were made to the variables during the current project:
-
-- XXXXXX
+#### Variable Modifications:
 
 - XXXXXX
 
-The following files were created during the current project:
+- XXXXXX
 
-- 'tidyData.txt': Integrated "tidy" data set resulting from the merger of core variables form the training, test, features, activity, and subject source data sets.
+#### File Structure Modifications (New Files):
 
-- 'tidyDataMean.txt': Data set containing mean values for each variable in the 'tidyData.txt' data set, structured by activity and subject.
+- 'tidyData.txt': New data set created through the merger of core variables from the training, test, features, activity, and subject source data sets.
+
+- 'tidyDataMean.txt': New data set containing mean values for each variable in the 'tidyData.txt' data set, structured by activity and subject.
 
 For a detailed description of the operations executed on the pre-project UCI HAR data sets, see the "README.md" and "run_analysis.R" files in this GitHub repo.
 
-### Source File Citation:
+### UCI HAR Source Data Citation:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
