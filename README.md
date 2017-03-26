@@ -37,7 +37,7 @@ Peer reviewers will evaluate student submittals based on the following criteria:
 5. The work submitted for this project is the work of the student who submitted it
 
 #### R Script Documentation:
-The R script prepared to meet the project requirements involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) The description of each step covers the basic operation executed in the step.  For core data transformation, manipulation, and analytic functions, the description cites the R function used, what the function achieves, and the rationale for using the function.
+The R script prepared to meet the project requirements involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) The description of each step covers the basic operation executed in the step.  For core data transformation, manipulation, and analytic functions, the description cites the R function used, what the function achieves, and the rationale for selecting the function.
 
 Step 1. Set working directory to local with source data
 
