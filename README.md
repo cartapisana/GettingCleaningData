@@ -37,18 +37,56 @@ Peer reviewers will evaluate student submittals based on the following criteria:
 5. The work submitted for this project is the work of the student who submitted it
 
 #### R Script Documentation:
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
+The R script prepared to meet the project requirements involved the development steps listed below. (A copy of the R script may be accessed on this GitHub repo, file name "run_analysis.R")  
+The description for each step covers the basic operation executed in the step.  For core transformation, manipulation, and analytic functions, the  description cites the actual R function used, what the function achieves, and the rationale for using the function.
 
-#### Metadata and Code Book:
+Step 1. Set working directory to local with source data
 
+Step 2. Use "reshape2" package for data manipulation
+
+Step 3. Load library(reshape2) into R Global Environment
+
+Step 4. Read activity labels and features data sets from local directory
+
+Step 5. Transform target value labels into character data (both data sets)
+
+Step 6. Extract means and standard deviations for each measurement  
+Use grep() to return indexes; gsub() to replace variable names
+
+Step 7. Read in multiple data sets for training from local directory
+
+Step 8. Use cbind() to combine multiple data sets into single data set
+
+Step 9. Read in multiple data sets for test from local directory  
+
+Step 10. Use cbind() to combine multiple data sets into single data set
+
+Step 11. Use rbind() to create "tidy" data set by merging combined data sets
+
+Step 12. Create vector of descriptive variable names for targeted columns
+
+Step 13. Assign descriptive activity names (value labels) to study activities
+
+Step 13.a. Define study activities by levels and labels as factor variables
+Step 13.b. Define values for study subjects as factor variables
+
+Step 14. Use melt() and id as vector of variable names
+
+Step 15. Use dcast() to calculate means for each variable by activity and subject
+
+Step 16. Create a second data set with means for each activity and subject
+
+Step 17. Export second data set as text file for posting to GitHub
+
+#### Pre- and Post-Production Testing:
+paohsoiuewf
+
+
+Metadata and Code Book:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#### Project Source Data:
-
+Project Source Data:  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#### Deadline Information:
-It is especially important to submit this assignment before the deadline, March 26, 11:59 PM PDT, because it must be graded by others. If you submit late, there may not be enough classmates around to review your work. This makes it difficult - and in some cases, impossible - to produce a grade. Submit on time to avoid these risks.
-
-#### Published Source File: 
+Published Source File:  
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
