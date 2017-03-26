@@ -26,15 +26,15 @@ Activity recognition data set built from the recordings of 30 study participants
 
 ### Source Data Set Description
 
-Data Set Characteristics: Multivariate, Time Series
-Attribute Characteristics: Real
-Associated Tasks: Classification
-Number of Instances: 10,929
-Number of Attributes: 561
-Missing Values: N/A
-Area: Life
-Data Donated: 2015-07-29
-Number of Web Hits: 50,705+
+Data Set Characteristics: Multivariate, Time Series  
+Attribute Characteristics: Real  
+Associated Tasks: Classification  
+Number of Instances: 10,929  
+Number of Attributes: 561  
+Missing Values: N/A  
+Area: Life  
+Data Donated: 2015-07-29  
+Number of Web Hits: 50,705+  
 
 The source data is maintained by the University of California-Irvine (UCI), under the title "Human Activity Recognition (HAR) Using Smartphones Data Set." Researchers on the original project implemented the experiment with a group of 30 volunteers ("participants"), with an age bracket of 19-48 years old. Participants performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
 
