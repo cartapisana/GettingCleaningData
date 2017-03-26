@@ -31,7 +31,7 @@ Attribute Characteristics: Real
 Associated Tasks: Classification  
 Number of Instances: 10,929  
 Number of Attributes (Pre-Project): 561  
-Number of Attributes (Post-Project): 561  
+Number of Attributes (Post-Project): 640  
 Missing Values: N/A  
 Area: Life  
 Data Donated: 2015-07-29  
@@ -107,10 +107,86 @@ Additional information on the UCI HAR data sets may be accessed at www.smartlab.
 The UCI HAR source data variable list and file structures have been modified, based on the data transformation, manipulation, and analysis completed during the current project.
 
 #### Variable Modifications:
-
-- XXXXXX
-
-- XXXXXX
+The following variables (Total = 79 vars) were created during the current project.  The new variables are integer class and contain mean values for each of the variables referenced in the new variable name.
+    tBodyAccMeanX
+    tBodyAccMeanY
+    tBodyAccMeanZ
+    tBodyAccStdX
+    tBodyAccStdY
+    tBodyAccStdZ
+    tGravityAccMeanX
+    tGravityAccMeanY
+    tGravityAccMeanZ
+    tGravityAccStdX
+    tGravityAccStdY
+    tGravityAccStdZ
+    tBodyAccJerkMeanX
+    tBodyAccJerkMeanY
+    tBodyAccJerkMeanZ
+    tBodyAccJerkStdX
+    tBodyAccJerkStdY
+    tBodyAccJerkStdZ
+    tBodyGyroMeanX
+    tBodyGyroMeanY
+    tBodyGyroMeanZ
+    tBodyGyroStdX
+    tBodyGyroStdY
+    tBodyGyroStdZ
+    tBodyGyroJerkMeanX
+    tBodyGyroJerkMeanY
+    tBodyGyroJerkMeanZ
+    tBodyGyroJerkStdX
+    tBodyGyroJerkStdY
+    tBodyGyroJerkStdZ
+    tBodyAccMagMean
+    tBodyAccMagStd
+    tGravityAccMagMean
+    tGravityAccMagStd
+    tBodyAccJerkMagMean
+    tBodyAccJerkMagStd
+    tBodyGyroMagMean
+    tBodyGyroMagStd
+    tBodyGyroJerkMagMean
+    tBodyGyroJerkMagStd
+    fBodyAccMeanX
+    fBodyAccMeanY
+    fBodyAccMeanZ
+    fBodyAccStdX
+    fBodyAccStdY
+    fBodyAccStdZ
+    fBodyAccMeanFreqX
+    fBodyAccMeanFreqY
+    fBodyAccMeanFreqZ
+    fBodyAccJerkMeanX
+    fBodyAccJerkMeanY
+    fBodyAccJerkMeanZ
+    fBodyAccJerkStdX
+    fBodyAccJerkStdY
+    fBodyAccJerkStdZ
+    fBodyAccJerkMeanFreqX
+    fBodyAccJerkMeanFreqY
+    fBodyAccJerkMeanFreqZ
+    fBodyGyroMeanX
+    fBodyGyroMeanY
+    fBodyGyroMeanZ
+    fBodyGyroStdX
+    fBodyGyroStdY
+    fBodyGyroStdZ
+    fBodyGyroMeanFreqX
+    fBodyGyroMeanFreqY
+    fBodyGyroMeanFreqZ
+    fBodyAccMagMean
+    fBodyAccMagStd
+    fBodyAccMagMeanFreq
+    fBodyBodyAccJerkMagMean
+    fBodyBodyAccJerkMagStd
+    fBodyBodyAccJerkMagMeanFreq
+    fBodyBodyGyroMagMean
+    fBodyBodyGyroMagStd
+    fBodyBodyGyroMagMeanFreq
+    fBodyBodyGyroJerkMagMean
+    fBodyBodyGyroJerkMagStd
+    fBodyBodyGyroJerkMagMeanFreq
 
 #### File Structure Modifications (New Files):
 
