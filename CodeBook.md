@@ -93,7 +93,7 @@ For a detailed description of the operations implemented on the pre-project UCI 
 - Each feature vector is a row in the 'X' and 'y' files. 
 - Units used for the accelerations (total and body) are "Gs" (gravity of earth -> 9.80665 m/seg2). 
 - Gyroscope units are rad/seg. 
-- Video recordings of the experiment, including an example of the six (6) recorded activities with one of the participants, may be accessed at: [Web Link] 
+- Video recordings of the experiment, including an example of the six (6) recorded activities with one of the participants, may be accessed at https://www.youtube.com/watch?v=XOEN9W05_4A 
 
 Additional information on the UCI HAR data sets may be accessed at www.smartlab.ws
 
