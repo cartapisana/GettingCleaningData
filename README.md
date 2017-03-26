@@ -10,30 +10,33 @@ Coursera Data Science Specialization
 Getting and Cleaning Data - Course 3  
 Peer-Reviewed Project - Week 4
 
-#### Purpose and Submittal Requirements:
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 
+#### Project Purpose:
+The peer-reviewed project (Getting and Cleaning Data, Week 4) tasked student-level data scientists to demonstrate their ability to collect, transform, and integrate multiple data sets. The goal of the project centered on creating "tidy" data, which may support future analysis. 
 
-1. Tidy data set as described below
-2. Link to a Github repository with your script for performing the analysis
-3. Code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
-4. README.md in the repo with your scripts. (Repo explains how all of the scripts work and how they are connected.)
+#### Submittal Requirements:
+The submittal requirements for the project are as follows:
+1. "Tidy" data set, as defined in the course material
+2. Link to the student's Github repository, which must contain the source R script developed to perform the analysis ("run_analysis.R")
+3. Code book documenting the source data sets, variables, variable definitions and specifications, and descriptions of the transformations and related tasks performed to produce the required project artifacts ("CodeBook.md") 
+4. Documentation the GitHub repo with descriptive information for the "run_analysis.R" script, including how the script works, how the script components connect, functions implemented, rationale for each function, and other relevant information to support re-use of the R script ("README.md") -- THIS DOCUMENT
 
 #### R Script Requirements:
-Source R script titled "run_analysis.R" that performs the following:
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Source R script developed for the project ("run_analysis.R") must perform the following:
+1. Merge the multiple data sets for training and test into a single, integrated data set
+2. Extract the mean and standard deviation for each measurement
+3. Assign descriptive variable labels to the study activities featured in the data set
+4. Label the final data set with descriptive variable names
+5. Create a second, independent tidy data set with the mean of each variable by activity and subject
 
 #### Submittal Review Criteria:
-1. The submitted data set is tidy.
-2. The Github repo contains the required scripts.
-3. GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
-4. The README that explains the analysis files is clear and understandable.
-5. The work submitted for this project is the work of the student who submitted it.
+Peer reviewers will evaluate student submittals based on the following criteria:
+1. The submitted data set is "tidy," as defined in the course material
+2. The Github repo contains the required scripts ("run_analysis.R") and support documentation
+3. The GitHub repo contains a code book ("CodeBook.md") that modifies and updates the source codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information
+4. The GitHub repo contains a README.md file documenting the required information, cited above in the "Submittal Requirements" section
+5. The work submitted for this project is the work of the student who submitted it
 
-#### Source Data Description:
+#### R Script Documentation:
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
 #### Metadata and Code Book:
