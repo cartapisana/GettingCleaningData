@@ -37,8 +37,7 @@ Peer reviewers will evaluate student submittals based on the following criteria:
 5. The work submitted for this project is the work of the student who submitted it
 
 #### R Script Documentation:
-The R script prepared to meet the project requirements involved the development steps listed below. (A copy of the R script may be accessed on this GitHub repo, file name "run_analysis.R")  
-The description for each step covers the basic operation executed in the step.  For core transformation, manipulation, and analytic functions, the  description cites the actual R function used, what the function achieves, and the rationale for using the function.
+The R script prepared to meet the project requirements involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) The description for each step covers the basic operation executed in the step.  For core transformation, manipulation, and analytic functions, the  description cites the actual R function used, what the function achieves, and the rationale for using the function.
 
 Step 1. Set working directory to local with source data
 
