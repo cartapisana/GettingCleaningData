@@ -105,6 +105,6 @@ For a detailed description of the operations implemented on the pre-project UCI 
 Additional information on the UCI HAR data sets may be accessed at www.smartlab.ws
 
 
-### Published Source File
+### Source File Citation:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
