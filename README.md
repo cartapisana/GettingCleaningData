@@ -61,7 +61,7 @@ Step 10. Assign descriptive activity names (value labels) to study activities: T
 
 Step 11. Define study activities by levels and labels, and values for study subjetcs, as factor variables: Specification of these attributes as factor variables supported downstream analytics, which also will enhance future research opportunities on the resulting data set.
 
-Step 12. Use melt() and id as vector of variable names: The melt() function
+Step 12. Use melt() and id as vector of variable names: The melt() function enabled creation of new variables based on row-level responses to existing variables. The "id" argument in the melt() function specified the variable names.
 
 Step 13. Use dcast() to calculate means for each variable by activity and subject; create a second data set with the resulting values: The dcast() function proved to be the most efficient choice for tabulating the means across rows of data, which satisfied a primary course requirement. 
 
