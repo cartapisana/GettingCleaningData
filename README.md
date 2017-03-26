@@ -68,7 +68,7 @@ Step 13. Use dcast() to calculate means for each variable by activity and subjec
 Step 14. Export second data set as text file for posting to GitHub: Project requirements called for the R script to generate a text file containing the results from the previous step - creating the second data set with mean values on targeted attributes. A text file with the file name matching the function name in the R script ("tidyDataMean.txt") has been posted to the GitHub repo for the project.
 
 #### Source Data Documentation:
-The source data for this project, as well as the code book and related metadata, may be accessed at the locations listed below. The formal publication of the source data has been noted in the referenced citation.
+The source data for this project, as well as the code book and related metadata, may be accessed on the web sites listed below. Formal publication of the data has been referenced in the source file citation.
 
 Metadata and Code Book:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
