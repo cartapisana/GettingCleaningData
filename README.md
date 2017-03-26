@@ -28,7 +28,7 @@ Source R script developed for the project ("run_analysis.R") must perform the fo
 4. Label the final data set with descriptive variable names
 5. Create a second, independent tidy data set with the mean of each variable by activity and subject
 
-#### Submittal Review Criteria:
+#### Peer-Review Criteria:
 Peer reviewers will evaluate student submittals based on the following criteria:
 1. The submitted data set is "tidy," as defined in the course material
 2. The Github repo contains the required scripts ("run_analysis.R") and support documentation
