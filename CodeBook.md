@@ -63,7 +63,7 @@ The source data used for the current project were divided into two parts:
 
 ### File Structure and Variable Information - Pre-Project (Source Data)
 
-The UCI HAR source data had the following file structure, prior to the data transformation, manipulation, and analysis completed in the current project:
+The UCI HAR source data had the following file structure and variables, prior to the data modifications completed during the current project. Detailed documentation on the variable names, value names, value labels, and data specifications for the UCI HAR data have been provided in the 'README.txt' 'features_info.txt' and 'features.txt' files in the 'UCI HAR Dataset' source directory.
 
 - 'README.txt'
 
@@ -91,20 +91,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-### File Structure and Variable Information - Post-Project
-The UCI HAR file structure has been modified, based on the data transformation, manipulation, and analysis completed in the current project. The following files and variables were created during the project:
-
-- XXXXXX
-
-- XXXXXX
-
-- XXXXXX
-
-- XXXXXX
-
-For a detailed description of the operations implemented on the pre-project UCI HAR data sets, see the "README.md" and "run_analysis.R" files in this GitHub repo.
-
-### Notes
+### Variable Notes - Pre-Project
 
 - Features are normalized and bounded within [-1,1]. 
 - Each feature vector is a row in the 'X' and 'y' files. 
@@ -114,6 +101,18 @@ For a detailed description of the operations implemented on the pre-project UCI 
 
 Additional information on the UCI HAR data sets may be accessed at www.smartlab.ws
 
+### File Structure and Variable Information - Post-Project
+The UCI HAR source data file structure has been modified, based on the data transformation, manipulation, and analysis completed in the current project. The following files and variables were created during the project:
+
+- XXXXXX
+
+- XXXXXX
+
+- XXXXXX
+
+- XXXXXX
+
+For a detailed description of the operations executed on the pre-project UCI HAR data sets, see the "README.md" and "run_analysis.R" files in this GitHub repo.
 
 ### Source File Citation:
 
