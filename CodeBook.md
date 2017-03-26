@@ -4,14 +4,14 @@
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-Submitted By:
+Submitted By:  
 Joseph W. Grubbs, Ph.D., AICP, GISP
 
-Project:
-Coursera - Data Science Specialization
-Johns Hopkins University
-Getting and Cleaning Data - Course 3
-Week 4 Peer - Reviewed Project
+Project:  
+Coursera - Data Science Specialization  
+Johns Hopkins University  
+Getting and Cleaning Data - Course 3  
+Week 4 Peer - Reviewed Project  
 
 ## Code Book
 
