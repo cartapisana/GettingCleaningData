@@ -1,5 +1,7 @@
 # Getting and Cleaning Data Course Project
 
+## Required "README.md" File
+
 #### Submitted By:
 Joseph W. Grubbs, Ph.D., AICP, GISP
 
