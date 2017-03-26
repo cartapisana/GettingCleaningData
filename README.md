@@ -2,25 +2,25 @@
 
 ## Required "README.md" File
 
-#### Submitted By:
+#### Submitted By
 Joseph W. Grubbs, Ph.D., AICP, GISP
 
-#### Project Assignment:
+#### Project Assignment
 Coursera Data Science Specialization  
 Getting and Cleaning Data - Course 3  
 Peer-Reviewed Project - Week 4
 
-#### Project Purpose:
+#### Project Purpose
 The peer-reviewed project (Getting and Cleaning Data, Week 4) tasked student-level data scientists to demonstrate their ability to collect, transform, and integrate multiple data sets. The goal of the project centered on creating "tidy" data, which may support future analysis. 
 
-#### Submittal Requirements:
+#### Submittal Requirements
 The submittal requirements for the project are as follows:
 1. "Tidy" data set, as defined in the course material
 2. Link to the student's Github repository, which must contain the source R script developed to perform the analysis ("run_analysis.R")
 3. Code book documenting the source data sets, variables, variable definitions and specifications, and descriptions of the transformations and related tasks performed to produce the required project artifacts ("CodeBook.md") 
 4. Documentation the GitHub repo with descriptive information for the "run_analysis.R" script, including how the script works, how the script components connect, functions implemented, rationale for each function, and other relevant information to support re-use of the R script ("README.md") -- THIS DOCUMENT
 
-#### R Script Requirements:
+#### R Script Requirements
 Source R script developed for the project ("run_analysis.R") must perform the following:
 1. Merge the multiple data sets for training and test into a single, integrated data set
 2. Extract the mean and standard deviation for each measurement
@@ -28,7 +28,7 @@ Source R script developed for the project ("run_analysis.R") must perform the fo
 4. Label the final data set with descriptive variable names
 5. Create a second, independent tidy data set with the mean of each variable by activity and subject
 
-#### Peer-Review Criteria:
+#### Peer-Review Criteria
 Peer reviewers will evaluate student submittals based on the following criteria:
 1. The submitted data set is "tidy," as defined in the course material
 2. The Github repo contains the required scripts ("run_analysis.R") and support documentation
@@ -36,8 +36,8 @@ Peer reviewers will evaluate student submittals based on the following criteria:
 4. The GitHub repo contains a README.md file documenting the required information, cited above in the "Submittal Requirements" section
 5. The work submitted for this project is the work of the student who submitted it
 
-#### R Script Documentation:
-The R script prepared to meet the project requirements involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) The description of each step covers the basic operation executed in the step.  For core data transformation, manipulation, and analytic functions, the description cites the R function used, what the function achieved, and the rationale for selecting the function.
+#### R Script Documentation
+The R script required for the project involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) Step descriptions cover the basic operation executed.  For core data transformation, manipulation, and analytic functions, the step description cites the R function used, what the function achieved, and the rationale for selecting the function.
 
 Step 1. Set working directory to local with source data: The setwd() function switched the working directory to a local directory, where the source data had been downloaded with a separate script.
 
@@ -67,7 +67,8 @@ Step 13. Use dcast() to calculate means for each variable by activity and subjec
 
 Step 14. Export second data set as text file for posting to GitHub: Project requirements called for the R script to generate a text file containing the results from the previous step - creating the second data set with mean values on targeted attributes. A text file with the file name matching the function name in the R script ("tidyDataMean.txt") has been posted to the GitHub repo for the project.
 
-
+#### Source Data Documentation:
+The source data for this project, as well as the code book and related metadata, may be accessed at the locations listed below. The formal publication of the source data has been noted in the referenced citation.
 
 Metadata and Code Book:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
