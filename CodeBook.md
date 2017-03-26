@@ -1,8 +1,4 @@
-# Getting and Cleaning Data Course Project
-
-## UCI HAR Data Set - Final Code Book
-
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+# UCI HAR Data Set - Final Code Book
 
 #### Submitted By:  
 Joseph W. Grubbs, Ph.D., AICP, GISP
