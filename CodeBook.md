@@ -1,4 +1,5 @@
-# UCI HAR Data Set - Final Code Book
+# Getting and Cleaning Data Course Project
+## UCI HAR Data Set - Final Code Book
 
 ### General Information  
 
