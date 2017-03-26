@@ -14,6 +14,10 @@ Johns Hopkins University
 Getting and Cleaning Data - Course 3  
 Peer-Reviewed Project - Week 4  
 
+### Source Data Set Abstract
+
+Activity recognition data set built from the recordings of 30 study participants performing basic activities and postural transitions while carrying a waist-mounted smartphone with embedded inertial sensors.
+
 ### Source Data Set Description
 
 The researchers on the original project implemented the experiment with a group of 30 volunteers ("participants"), with an age bracket of 19-48 years old. Participants performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
@@ -30,7 +34,7 @@ The student-level data scientist conducting the current analysis project made mu
 
 ### Attribute Note - Pre-Project (Source Data)
 
-The source data set used for the current project had been divided into two parts: 
+The source data used for the current project were divided into two parts: 
 
 1. Inertial sensor data 
 - Raw triaxial signals from the accelerometer and gyroscope of all the trials with with participants. 
