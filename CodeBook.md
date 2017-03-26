@@ -3,11 +3,12 @@
 
 ### General Information  
 
-#### Submitted By:
+#### Submitted By
 
 Joseph W. Grubbs, Ph.D., AICP, GISP
 
-#### Project:  
+#### Project Assignment
+
 Coursera Data Science Specialization  
 Johns Hopkins University  
 Getting and Cleaning Data - Course 3  
