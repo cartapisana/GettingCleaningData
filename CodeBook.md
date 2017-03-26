@@ -11,7 +11,7 @@ Project:
 Coursera - Data Science Specialization  
 Johns Hopkins University  
 Getting and Cleaning Data - Course 3  
-Week 4 Peer - Reviewed Project  
+Week 4 Peer-Reviewed Project  
 
 ## Code Book
 
