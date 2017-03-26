@@ -75,8 +75,7 @@ Column 5: Label end point (in number of signal log samples)
 ### File Structure and Attributes - Post-Project
 The UCI HAR file structure has been modified, based on the data transformation, manipulation, and analysis completed in the current project. For a detailed description of the :(See README.md and run_analysis.R Files in GitHub Repo)
 
-Notes: 
-====== 
+### Notes
 
 - Features are normalized and bounded within [-1,1]. 
 - Each feature vector is a row on the 'X' and 'y' files. 
@@ -84,8 +83,9 @@ Notes:
 - The gyroscope units are rad/seg. 
 - A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: [Web Link] 
 
-For more information about this dataset please contact har '@' smartlab.ws or check our website www.smartlab.ws
+For more information on the UCI HAR dataset please contact har '@' smartlab.ws or check our website www.smartlab.ws
 
 
-#### Published Source File:  
+### Published Source File
+
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
