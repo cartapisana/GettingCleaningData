@@ -30,10 +30,12 @@ Data Set Characteristics: Multivariate, Time Series
 Attribute Characteristics: Real  
 Associated Tasks: Classification  
 Number of Instances: 10,929  
-Number of Attributes: 561  
+Number of Attributes (Pre-Project): 561  
+Number of Attributes (Post-Project): 561  
 Missing Values: N/A  
 Area: Life  
 Data Donated: 2015-07-29  
+Date Updated: 2017-03-26 (Post-Project)  
 Number of Web Hits: 50,705+  
 
 The University of California-Irvine (UCI) serves as host for the Human Activity Recognition (HAR) Using Smartphones Data Set ("UCI HAR Dataset"). Researchers on the original project implemented the experiment with a group of 30 volunteers ("participants"), with an age bracket of 19-48 years old. Participants performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
@@ -102,15 +104,19 @@ The following files are available for the train and test data. Their description
 Additional information on the UCI HAR data sets may be accessed at www.smartlab.ws
 
 ### File Structure and Variable Information - Post-Project
-The UCI HAR source data file structure has been modified, based on the data transformation, manipulation, and analysis completed in the current project. The following files and variables were created during the project:
+The UCI HAR source data file structure and variable list have been modified, based on the data transformation, manipulation, and analysis completed in the current project.
+
+The following modifications were made to the variables during the current project:
 
 - XXXXXX
 
 - XXXXXX
 
-- XXXXXX
+The following files were created during the current project:
 
-- XXXXXX
+- 'tidyData.txt': Integrated "tidy" data set resulting from the merger of core variables form the training, test, features, activity, and subject source data sets.
+
+- 'tidyDataMean.txt': Data set containing mean values for each variable in the 'tidyData.txt' data set, structured by activity and subject.
 
 For a detailed description of the operations executed on the pre-project UCI HAR data sets, see the "README.md" and "run_analysis.R" files in this GitHub repo.
 
