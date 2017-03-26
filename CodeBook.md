@@ -1,5 +1,6 @@
 # Getting and Cleaning Data Course Project
-## UCI HAR Data Set - Project Code Book
+## University of California-Irvine (UCI) Human Activity Recognition (HAR) Data Set
+## Project Code Book
 
 ### General Information  
 
@@ -19,6 +20,10 @@ Peer-Reviewed Project - Week 4
 Activity recognition data set built from the recordings of 30 study participants performing basic activities and postural transitions while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 ### Source Data Set Description
+
+Source Data Title: Human Activity Recognition (HAR) Using Smartphones Data Set 
+
+Source: Machine Learning Repository, Center for Machine Learning and Intelligent Systems, University of California-Irvine (UCI)
 
 The researchers on the original project implemented the experiment with a group of 30 volunteers ("participants"), with an age bracket of 19-48 years old. Participants performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
 
@@ -49,36 +54,31 @@ The source data used for the current project were divided into two parts:
 
 The UCI HAR source data had the following file structure, prior to the data transformation, manipulation, and analysis completed in the current project:
 
-- "README.txt"
+- 'README.txt'
 
-- The raw triaxial acceleration signal for the experiment number XX and associated to the user number YY. Every row is one acceleration sample (three axis) captured at a frequency of 50Hz. 
+- 'features_info.txt': Shows information about the variables used on the feature vector.
 
-- The raw triaxial angular speed signal for the experiment number XX and associated to the user number YY. Every row is one angular velocity sample (three axis) captured at a frequency of 50Hz. 
+- 'features.txt': List of all features.
 
-- '[Web Link]': include all the activity labels available for the dataset (1 per row). 
-Column 1: experiment number ID, 
-Column 2: user number ID, 
-Column 3: activity number ID 
-Column 4: Label start point (in number of signal log samples (recorded at 50Hz)) 
-Column 5: Label end point (in number of signal log samples) 
+- 'activity_labels.txt': Links the class labels with their activity name.
 
-- "features_info.txt": Provides metadata on variables used for the feature vector. 
+- 'train/X_train.txt': Training set.
 
-- "features.txt": Lists all features in the experimental study. 
+- 'train/y_train.txt': Training labels.
 
-- "activity_labels.txt": Links activity identifier value with descriptive activity name value. 
+- 'test/X_test.txt': Test set.
 
-- : Training set. 
+- 'test/y_test.txt': Test labels.
 
-- : Training labels. 
+The following files are available for the train and test data. Their descriptions are equivalent. 
 
-- : Test set. 
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-- : Test labels. 
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 
-- : Each row identifies the subject who performed the activity for each window sample. Value range: 1 to 30
+- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
-- : Each row identifies the subject who performed the activity for each window sample. Value range: 1 to 30
+- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 ### File Structure and Variable Information - Post-Project
 The UCI HAR file structure has been modified, based on the data transformation, manipulation, and analysis completed in the current project. The following files and variables were created during the project:
