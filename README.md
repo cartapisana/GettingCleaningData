@@ -37,7 +37,7 @@ Peer reviewers will evaluate student submittals based on the following criteria:
 5. The work submitted for this project is the work of the student who submitted it
 
 #### R Script Documentation
-The R script for the project involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) Step descriptions cover the basic operation executed in each component of the script.  For core data transformation, manipulation, and analytic functions, the step description cites the R function used, what the function achieved, and the rationale for selecting the function.
+The R script for the project involved the development steps listed below. (Note: A copy of the R script may be accessed in the GitHub repo for the project) Step descriptions cover the basic operation executed in each component of the script.  For core data transformation, manipulation, and analytic functions, the step description cites the R function used, what the function achieved, and the rationale for selecting the function.
 
 Step 1. Set working directory to local with source data: The setwd() function switched the working directory to a local directory, where the source data had been downloaded with a separate script.
 
