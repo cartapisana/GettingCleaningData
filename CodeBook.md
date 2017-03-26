@@ -36,7 +36,7 @@ The source data set used for the current project had been divided into two parts
 - Raw triaxial signals from the accelerometer and gyroscope of all the trials with with participants. 
 - The labels of all the performed activities. 
 
-2. Records of activity windows. Each one composed of: 
+2. Records of activity windows, each containing: 
 - A 561-feature vector with time and frequency domain variables. 
 - Its associated activity label. 
 - An identifier of the subject who carried out the experiment. 
