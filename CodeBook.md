@@ -14,7 +14,7 @@ Johns Hopkins University
 Getting and Cleaning Data - Course 3  
 Peer-Reviewed Project - Week 4  
 
-### Data Set Information
+### Source Data Set Description
 
 The researchers on the original project implemented the experiment with a group of 30 volunteers ("participants"), with an age bracket of 19-48 years old. Participants performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
 
