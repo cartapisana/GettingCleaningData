@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-## Required "README.md" File
+## Project Overview and R Script Documentation - Required "README.md" File
 
 #### Submitted By
 Joseph W. Grubbs, Ph.D., AICP, GISP
