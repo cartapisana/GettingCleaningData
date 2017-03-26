@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
-## University of California-Irvine (UCI) Human Activity Recognition (HAR) Data Set
 ## Project Code Book
+## University of California-Irvine (UCI) Human Activity Recognition (HAR) Data Set
 
 ### General Information  
 
