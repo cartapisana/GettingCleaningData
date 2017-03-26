@@ -6,8 +6,8 @@
 Joseph W. Grubbs, Ph.D., AICP, GISP
 
 #### Project Assignment:
-Coursera Data Science Specialization
-Getting and Cleaning Data - Course 3
+Coursera Data Science Specialization  
+Getting and Cleaning Data - Course 3  
 Peer-Reviewed Project - Week 4
 
 #### Purpose and Submittal Requirements:
