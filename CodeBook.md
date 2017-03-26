@@ -116,7 +116,7 @@ The UCI HAR source data variable list and file structures have been modified, ba
 
 - 'tidyData.txt': New data set created through the merger of core variables from the training, test, features, activity, and subject source data sets.
 
-- 'tidyDataMean.txt': New data set containing mean values for each variable in the 'tidyData.txt' data set, structured by activity and subject.
+- 'tidyDataMean.txt': New data set generated through the calculation of mean values for each variable in the 'tidyData.txt' data set, structured by activity and subject.
 
 For a detailed description of the operations executed on the pre-project UCI HAR data sets, see the "README.md" and "run_analysis.R" files in this GitHub repo.
 
