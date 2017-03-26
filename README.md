@@ -39,47 +39,33 @@ Peer reviewers will evaluate student submittals based on the following criteria:
 #### R Script Documentation:
 The R script prepared to meet the project requirements involved the development steps listed below. (Note: A copy of the R script may be accessed at XXXXX) The description of each step covers the basic operation executed in the step.  For core data transformation, manipulation, and analytic functions, the description cites the R function used, what the function achieves, and the rationale for selecting the function.
 
-Step 1. Set working directory to local with source data
-        The setwd() function switched the working directory to a local directory, where the source data had been downloaded with a separate script.
+Step 1. Set working directory to local with source data: The setwd() function switched the working directory to a local directory, where the source data had been downloaded with a separate script.
 
-Step 2. Use "reshape2" package for data manipulation; load library(reshape2) into R Global Environment  
-        The reshape2 package contains a range of functions for creating, editing, and manipulationg text data, which made this function the optimal choice given the project requirements.
+Step 2. Use "reshape2" package for data manipulation; load library(reshape2) into R Global Environment: The reshape2 package contains a range of functions for creating, editing, and manipulationg text data, which made this function the optimal choice given the project requirements.
 
-Step 3. Read activity labels and features data sets from local directory  
-        The read.table() function brought the source data sets into the R Global Environment.
+Step 3. Read activity labels and features data sets from local directory: The read.table() function brought the source data sets into the R Global Environment.
 
-Step 4. Transform target value labels into character data (both data sets)
-        Labels for the target values performed optimally as a character data class, and the as.character() function executed the required transformation.
+Step 4. Transform target value labels into character data (both data sets): Labels for the target values performed optimally as a character data class, and the as.character() function executed the required transformation.
 
-Step 5. Extract means and standard deviations for each measurement  
-        The grep() function returned indexes for the target variables, supporting the most efficient route to extract mean and standard deviation values; the gsub() enabled replacement of the variable names
+Step 5. Extract means and standard deviations for each measurement: The grep() function returned indexes for the target variables, supporting the most efficient route to extract mean and standard deviation values; the gsub() enabled replacement of the variable names
 
-Step 6. Read in multiple data sets for training and test from local directory  
-        The read.table() function brought the source data sets into the R Global Environment.
+Step 6. Read in multiple data sets for training and test from local directory: The read.table() function brought the source data sets into the R Global Environment.
 
-Step 7. Use cbind() to combine multiple data sets into single data set  
-        Due to the structure of the source data, multiple data sets needed to be integrated into temporary, staging data sets to support the downstream operations of the R script. The cbind() function implemented the data merger.
+Step 7. Use cbind() to combine multiple data sets into single data set: Due to the structure of the source data, multiple data sets needed to be integrated into temporary, staging data sets to support the downstream operations of the R script. The cbind() function implemented the data merger.
 
-Step 8. Use rbind() to create "tidy" data set by merging combined data sets  
-        A major project requirement, as appropriate given the structure of the source data, called for integrating the array of disparate data sets into a single data set. The rbind() function enabled this integration operation.
+Step 8. Use rbind() to create "tidy" data set by merging combined data sets: A major project requirement, as appropriate given the structure of the source data, called for integrating the array of disparate data sets into a single data set. The rbind() function enabled this integration operation.
 
-Step 9. Create vector of descriptive variable names for targeted columns  
-        The project assignment required assignment of descriptive variable names to the single, integrated data set. This will allow for better understanding of the variable characteristics and support future analytics.
+Step 9. Create vector of descriptive variable names for targeted columns: The project assignment required assignment of descriptive variable names to the single, integrated data set. This will allow for better understanding of the variable characteristics and support future analytics.
 
-Step 10. Assign descriptive activity names (value labels) to study activities  
-         The project assignment required assignment of descriptive activity names to the study activities. This will allow for better understanding of the activity variables and support future analytics.
+Step 10. Assign descriptive activity names (value labels) to study activities: The project assignment required assignment of descriptive activity names to the study activities. This will allow for better understanding of the activity variables and support future analytics.
 
-Step 11. Define study activities by levels and labels, and values for study subjetcs, as factor variables  
-         Specification of these attributes as factor variables supported downstream analytics, which also will enhance future research opportunities on the resulting data set.
+Step 11. Define study activities by levels and labels, and values for study subjetcs, as factor variables: Specification of these attributes as factor variables supported downstream analytics, which also will enhance future research opportunities on the resulting data set.
 
-Step 12. Use melt() and id as vector of variable names  
-         The melt() function
+Step 12. Use melt() and id as vector of variable names: The melt() function
 
-Step 15. Use dcast() to calculate means for each variable by activity and subject
+Step 13. Use dcast() to calculate means for each variable by activity and subject; create a second data set with the resulting values: The dcast() function offered the most efficient method for completing the required operation. 
 
-Step 16. Create a second data set with means for each activity and subject
-
-Step 17. Export second data set as text file for posting to GitHub
+Step 15. Export second data set as text file for posting to GitHub: Project requirements called for the R script to generate a text file containing the results from the previous step - creating the second data set with mean values on targeted attributes. A text file with the file name matching the function name in the R script ("tidyDataMean.txt") has been posted to the GitHub repo for the project.
 
 #### Pre- and Post-Production Testing:
 paohsoiuewf
